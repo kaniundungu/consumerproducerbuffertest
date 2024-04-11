@@ -1,9 +1,12 @@
 
-## ConsumerProducerzBufferTest
+# ConsumerProducerzBufferTest
 
 This is an example of a consumer and producer interaction with buffering/queueing.
 
-#### Running the example
+To see a service oriented example done in nodejs see the other [example included](./nodejs_example/README.md) in this project.
+
+
+### Running the example
 
  - Assumptions: That you have a jdk installed in your environment.
  
@@ -32,5 +35,7 @@ This is an example of a consumer and producer interaction with buffering/queuein
 	```
 	java -DPRODUCER_INTERVALS=1000 -DCONSUMER_INTERVALS=2000 -DBUFFER_QUEUE_SIZE=10 -DMAX_PRODUCT_PRICE=99 -cp bin/ simple.SimpleTest
 	```  
+	
+	
 	
 	
